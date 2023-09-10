@@ -10,4 +10,14 @@ form{
 
 .contact{
     z-index: -1;
+    position: relative;
+}
+
+.contactform{
+    position: absolute;
+    z-index: 1;
+}
+
+.contactform h1{
+    margin-top: -20em;
 }
