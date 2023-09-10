@@ -1,0 +1,13 @@
+body{
+    background-color:#ead8ca ;
+}
+
+form{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.contact{
+    z-index: -1;
+}
