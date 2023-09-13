@@ -65,8 +65,9 @@ form{
 
 
 .work p{
-    margin-left: 1em;
+
     size: .5em;
+    padding-top: .5em;
 }
 
 .work h1{
