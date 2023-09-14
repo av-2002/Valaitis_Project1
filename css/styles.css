@@ -68,6 +68,7 @@ form{
 
     size: .5em;
     padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .work h1{
@@ -75,6 +76,7 @@ form{
     text-decoration: none;
     color:#462700; 
     text-align: center;
+    font-size: 3em;
 }
 
 .work img{
