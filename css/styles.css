@@ -132,6 +132,69 @@ form{
     margin-bottom: 4em;
 }
 
-.aboutmehome img{
-    z-index: -1;
+
+
+.artspring h1{
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.artspring h2{
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 3em;
+}
+.artspring p{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 1.5em;
+}
+
+iframe{
+    width: 100%;
+    background-color: white;
+    height: 700px;
+    border: none;
+    margin-top: 90px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.artspringdeepdive h2{
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 3em;
+}
+
+.tophr{
+    margin-top: 80px;
+}
+
+.flowchart{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.artspringstyle{
+    margin-left: 0;
+    width: 100%;
+}
+
+.artspringstyle li{
+    grid-template-columns: repeat(1,3fr);
+    display: grid;
+    float: left;    
+    margin-left: 0;
+    grid-gap:10px;
 }
