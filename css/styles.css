@@ -198,3 +198,23 @@ iframe{
     margin-left: 0;
     grid-gap:10px;
 }
+
+.buttonas p{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+    
+}
+.buttonas a:hover{
+    background-color: #462700;
+    color: ffffff;
+    text-decoration: none;
+}
+
+.buttonas a{
+
+    text-decoration: none;
+}
