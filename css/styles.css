@@ -2,60 +2,6 @@ body{
     background-color:#ead8ca ;
 }
 
-form{
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-}
-
-.contact{
-
-}
-
-.contactform{
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 50px;
- 
-}
-
-.contactform h1{
-    font-family: 'Barlow', sans-serif;
-    
-    font-size: 1em;
-
-}
-
-.contactform input[type="text"], .formsection input.email2[type="email"], .formsection textarea{
-    padding: 5px;
-    border-radius: 50px;
-    text-align: left;
-    border: none;
-    width: 100%;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 400;
-        font-style: normal;
-    font-size: 19px;
-    color: #714232;
-
-
-}
-
-
-.arch{
-    z-index: -1;
-}
-
-.contactform input{
-    font-family: 'Barlow', sans-serif;
-
-    font-size: 1em;
-}
-
 .work a{
     font-family: 'Barlow', sans-serif;
     text-decoration: none;
@@ -218,3 +164,92 @@ iframe{
 
     text-decoration: none;
 }
+
+.homeopener h1{
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 3em;
+    z-index: 1;
+    margin-top: -9em;
+}
+
+.homeopener img{
+    z-index: -1;
+}
+
+.pallete h2{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: left;
+    font-size: 1.5em;
+    padding: 1em;
+    z-index: 1;
+}
+
+.aboutmehome p{
+    z-index: 1;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    margin-left: -24em;
+    padding: 6em;
+}
+
+.aboutmehome a{
+    z-index: 1;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    margin-left: -24em;
+    padding: 6em;
+    color: ffffff;
+}
+
+.aboutmehome img{
+    z-index: -1;
+}
+
+@media screen and (min-width: 601px) {
+    div.homeopener {
+        font-size: 1.5em;
+        color: #462700;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.homeopener {
+        font-size: .5em;
+        color: ffffff;
+    }
+  }
+
+
+
+.contact h1{
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color:#462700; 
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+
+}
+
+.contact{
+    background-color: white;
+    border-radius: 50% 50% 0% 0%;
+    background-size: 3em;
+
+}
+
+.contact form{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: #462700;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 2.5em;
+}
+
+
