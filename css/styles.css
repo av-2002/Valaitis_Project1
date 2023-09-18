@@ -152,7 +152,7 @@ iframe{
     text-align: center;
     font-size: 1.5em;
     padding: .25em;
-    
+
     
 }
 .buttonas a:hover{
@@ -260,4 +260,14 @@ iframe{
     padding: 2.5em;
 }
 
+
+.labels p{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+}
 
