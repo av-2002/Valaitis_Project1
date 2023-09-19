@@ -1,0 +1,140 @@
+
+$heading:'Libre Baskerville', serif;
+$body:'Barlow', sans-serif;
+$dark-brown:#462700;
+$green:#383F29;
+$light-brown:#EAD8CA; 
+
+
+a{
+    text-decoration: none;
+}
+
+
+h1{
+    font-family: $heading;
+    font-size: 3em;
+    padding: .5em;
+    text-align: center;
+    color: $dark-brown;
+
+}
+
+h2{
+    font-family: $heading;
+   font-size: 2em;
+    padding: .5em;
+    text-align: center;
+    color: $dark-brown;
+}
+
+
+body{
+  background-color: $light-brown;
+}
+
+
+
+p{
+    font-family: $body;
+    color: $dark-brown;
+    font-size: 1em;
+padding-top: .5em;
+}
+
+
+
+.work{
+img{
+    width: 100%;
+
+}
+
+
+
+}
+
+.homeopener{
+    img{
+        float: right;
+        z-index: -1;
+        position: relative;
+    }
+
+    h1{
+        float: left;
+    }
+
+
+}
+
+@media screen and (min-width: 601px) {
+    section.homeopener img {
+       width: 100%; 
+       float: right;
+       z-index: -1;
+       position: relative;
+
+
+   
+    }
+  }
+
+
+
+@media screen and (min-width: 601px) {
+    section.homeopener h1 {
+        font-size: 4em;
+        color:$dark-brown;
+
+   
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    section.homeopener h1 {
+        font-size: 3em;
+        color:$dark-brown;
+        margin-top: 8em;
+        font-family: $heading;
+        z-index: 1;
+        text-shadow: $light-brown 5px 3px 8px;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    section.homeopener p {
+        font-size: 1.5em;
+        color:$dark-brown;
+        margin-top: -3em;
+        font-family: $body;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    section.homeopener p {
+        font-size: 1em;
+        color:white;
+        font-family: $body;
+        z-index: 2;
+        margin-top: -1em;
+    }
+  }
+
+  
+
+
+.artspring{
+    p{
+        font-family: $body;
+        color: $dark-brown;
+        font-size: 1.25em;
+    padding-top: .5em;
+    text-align: center;
+    }
+    
+img{
+    float:left;
+
+}
+}
