@@ -46,13 +46,24 @@ p {
   position: relative;
 }
 
-/* line 64, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 65, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .homeopener h1 {
   float: left;
 }
 
+/* line 73, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.featuredworks img {
+  width: 100%;
+}
+
+/* line 77, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.featuredworks a:hover {
+  opacity: .8;
+  color: #462700;
+}
+
 @media screen and (min-width: 601px) {
-  /* line 72, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 85, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener img {
     width: 100%;
     float: right;
@@ -62,7 +73,7 @@ p {
 }
 
 @media screen and (min-width: 601px) {
-  /* line 86, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 99, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener h1 {
     font-size: 4em;
     color: #462700;
@@ -70,7 +81,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 95, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 108, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener h1 {
     font-size: 3em;
     color: #462700;
@@ -82,7 +93,7 @@ p {
 }
 
 @media screen and (min-width: 601px) {
-  /* line 106, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 119, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener p {
     font-size: 1.5em;
     color: #462700;
@@ -92,7 +103,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 115, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 128, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener p {
     font-size: 1em;
     color: white;
@@ -102,7 +113,7 @@ p {
   }
 }
 
-/* line 128, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 141, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .artspring p {
   font-family: "Barlow", sans-serif;
   color: #462700;
@@ -111,7 +122,7 @@ p {
   text-align: center;
 }
 
-/* line 136, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 149, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .artspring img {
   float: left;
 }

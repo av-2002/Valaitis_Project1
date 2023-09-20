@@ -59,12 +59,25 @@ img{
         float: right;
         z-index: -1;
         position: relative;
+
     }
 
     h1{
         float: left;
     }
 
+
+}
+
+.featuredworks {
+    img{
+    width: 100%;
+    }
+ 
+    a:hover{
+    opacity: .8;
+    color: $dark-brown;
+}
 
 }
 
