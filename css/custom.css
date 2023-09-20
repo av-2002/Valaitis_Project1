@@ -7,12 +7,12 @@ a {
 h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 3em;
-  padding: .5em;
+  padding-top: 1em;
   text-align: center;
   color: #462700;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 24, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 h2 {
   font-family: "Libre Baskerville", serif;
   font-size: 2em;
@@ -21,55 +21,55 @@ h2 {
   color: #462700;
 }
 
-/* line 32, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 33, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 body {
   background-color: #EAD8CA;
 }
 
-/* line 38, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 39, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 p {
   font-family: "Barlow", sans-serif;
   color: #462700;
-  font-size: 1em;
+  font-size: 1.25em;
   padding-top: .5em;
 }
 
-/* line 48, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 49, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .work img {
   width: 100%;
 }
 
-/* line 54, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 55, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .work a:hover {
   opacity: .8;
   color: #462700;
 }
 
-/* line 64, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 65, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .homeopener img {
   float: right;
   z-index: -1;
   position: relative;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 72, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .homeopener h1 {
   float: left;
 }
 
-/* line 79, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 80, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .featuredworks img {
   width: 100%;
 }
 
-/* line 83, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 84, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .featuredworks a:hover {
   opacity: .8;
   color: #462700;
 }
 
 @media screen and (min-width: 601px) {
-  /* line 91, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 92, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener img {
     width: 100%;
     float: right;
@@ -79,18 +79,19 @@ p {
 }
 
 @media screen and (min-width: 601px) {
-  /* line 105, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 106, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener h1 {
     font-size: 5em;
     color: #462700;
     margin-top: 3em;
     margin-left: 1em;
     text-align: center;
+    padding-right: 1.5em;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* line 115, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 117, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener h1 {
     font-size: 3em;
     color: #462700;
@@ -102,18 +103,18 @@ p {
 }
 
 @media screen and (min-width: 601px) {
-  /* line 126, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 128, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener p {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #462700;
     font-family: "Barlow", sans-serif;
     text-align: center;
-    margin-top: -1.5em;
+    margin-top: 7em;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* line 136, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+  /* line 138, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
   section.homeopener p {
     font-size: 1em;
     color: white;
@@ -124,7 +125,7 @@ p {
   }
 }
 
-/* line 151, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 153, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .artspring p {
   font-family: "Barlow", sans-serif;
   color: #462700;
@@ -133,12 +134,12 @@ p {
   text-align: center;
 }
 
-/* line 159, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 161, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .artspring img {
   float: left;
 }
 
-/* line 164, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 168, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .artspring h2 {
   font-family: "Libre Baskerville", serif;
   font-size: 2em;
@@ -147,7 +148,7 @@ p {
   color: #462700;
 }
 
-/* line 176, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 180, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .aboutmehome p {
   font-size: 1.5em;
   float: right;
@@ -155,13 +156,13 @@ p {
   margin-left: 1em;
 }
 
-/* line 190, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 194, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .logo img {
   align-items: center;
   display: flex;
 }
 
-/* line 197, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 201, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .contact {
   background-color: white;
   border-radius: 50% 50% 0% 0%;
@@ -169,41 +170,80 @@ p {
   padding: 3em;
 }
 
-/* line 203, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 207, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .contact .btn {
   color: #fff;
   background-color: #462700;
   border-color: #462700;
 }
 
-/* line 216, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 220, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .resume h2 {
   text-align: left;
   font-size: 2em;
 }
 
-/* line 222, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 226, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .resume h1 {
   font-size: 3em;
   text-align: left;
 }
 
-/* line 226, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 230, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .resume li {
   list-style: none;
   text-align: left;
   line-height: 1em;
 }
 
-/* line 232, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 236, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .resume p {
   text-align: left;
 }
 
-/* line 237, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+/* line 241, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
 .resume article {
   align-items: left;
   float: right;
+}
+
+/* line 249, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.guardiansdesign p, .textdesign p {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* line 257, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.bookcollection1 h1 {
+  padding-top: 1em;
+}
+
+/* line 260, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.bookcollection1 p {
+  text-align: center;
+  padding-bottom: -1em;
+}
+
+/* line 268, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.buttonas a:hover {
+  color: white;
+  background-color: #462700;
+}
+
+/* line 274, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.bookcollection p {
+  text-align: center;
+  padding: 1em;
+}
+
+/* line 279, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.bookcollection img {
+  padding-top: 1em;
+}
+
+/* line 285, ../../../../../../../../../../../../../Users/andivalaitis/Documents/Sites/Valaitis_Project 1/Valaitis_Project1/sass/custom.scss */
+.pagination {
+  border-radius: 10%;
 }
 
 /*# sourceMappingURL=custom.css.map */

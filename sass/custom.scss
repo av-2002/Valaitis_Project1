@@ -14,9 +14,10 @@ a{
 h1{
     font-family: $heading;
     font-size: 3em;
-    padding: .5em;
+    padding-top: 1em;
     text-align: center;
     color: $dark-brown;
+
 
 }
 
@@ -38,7 +39,7 @@ body{
 p{
     font-family: $body;
     color: $dark-brown;
-    font-size: 1em;
+    font-size: 1.25em;
 padding-top: .5em;
 }
 
@@ -108,6 +109,7 @@ a:hover{
         margin-top: 3em;
         margin-left: 1em;
         text-align: center;
+        padding-right: 1.5em;
     }
   }
   
@@ -124,11 +126,11 @@ a:hover{
 
   @media screen and (min-width: 601px) {
     section.homeopener p {
-        font-size: 1.5em;
+        font-size: 2em;
         color:$dark-brown;
         font-family: $body;
         text-align: center;
-        margin-top: -1.5em;
+        margin-top: 7em;
     }
   }
   
@@ -160,6 +162,8 @@ img{
     float:left;
 
 }
+
+
 
 h2{
     font-family: $heading;
@@ -197,7 +201,7 @@ h2{
 .contact{
     background-color: white;
     border-radius: 50% 50% 0% 0%;
-    width: 50%;
+    width:50%;
     padding: 3em;
   
     .btn {
@@ -241,3 +245,43 @@ article{
 }
 
 
+.guardiansdesign,.textdesign{
+    p{
+        text-align: center;
+        padding-bottom: 1em;
+    }
+}
+
+.bookcollection1{
+
+    h1{
+        padding-top: 1em;
+    }
+    p{
+        text-align: center;
+        padding-bottom: -1em;
+    }
+}
+
+
+
+.buttonas a:hover{
+    color: white;
+    background-color: $dark-brown;
+}
+
+.bookcollection{
+    p{
+        text-align: center;
+        padding: 1em;
+    }
+
+    img{
+        padding-top: 1em;
+    }
+}
+
+
+.pagination{
+    border-radius: 10%;
+}
