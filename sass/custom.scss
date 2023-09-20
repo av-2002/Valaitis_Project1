@@ -50,8 +50,14 @@ img{
 
 }
 
+ 
+a:hover{
+    opacity: .8;
+    color: $dark-brown;
 
 
+
+}
 }
 
 .homeopener{
@@ -97,10 +103,11 @@ img{
 
 @media screen and (min-width: 601px) {
     section.homeopener h1 {
-        font-size: 4em;
+        font-size: 5em;
         color:$dark-brown;
-
-   
+        margin-top: 3em;
+        margin-left: 1em;
+        text-align: center;
     }
   }
   
@@ -119,8 +126,9 @@ img{
     section.homeopener p {
         font-size: 1.5em;
         color:$dark-brown;
-        margin-top: -3em;
         font-family: $body;
+        text-align: center;
+        margin-top: -1.5em;
     }
   }
   
@@ -129,8 +137,10 @@ img{
         font-size: 1em;
         color:white;
         font-family: $body;
-        z-index: 2;
+        z-index: 1;
         margin-top: -1em;
+        text-align: center;
+
     }
   }
 
@@ -150,4 +160,84 @@ img{
     float:left;
 
 }
+
+h2{
+    font-family: $heading;
+   font-size: 2em;
+    padding: .5em;
+    text-align: center;
+    color: $dark-brown;
 }
+}
+
+
+
+.aboutmehome{
+    p{
+        font-size: 1.5em;
+        float: right;
+        font-family: $body;
+        margin-left: 1em;
+        
+    }
+
+
+
+
+}
+
+.logo{
+ img{
+    align-items: center;
+    display: flex;
+ }
+}
+
+
+.contact{
+    background-color: white;
+    border-radius: 50% 50% 0% 0%;
+    width: 50%;
+    padding: 3em;
+  
+    .btn {
+    color: #fff;
+    background-color:$dark-brown;
+    border-color:$dark-brown;
+  }
+
+    
+}
+
+
+
+.resume{
+
+h2{
+        text-align: left;
+        font-size: 2em;
+    
+    }
+    
+h1{
+       font-size: 3em;
+       text-align: left;
+ }
+li{
+    list-style: none;
+    text-align: left;
+    line-height: 1em;
+}
+
+p{
+     text-align: left;
+    }
+
+
+article{
+    align-items: left;
+    float: right;
+}
+}
+
+
