@@ -51,7 +51,9 @@ img{
 
 }
 
- 
+p{
+    padding-top: 1em;
+}
 a:hover{
     opacity: .8;
     color: $dark-brown;
@@ -217,6 +219,16 @@ h2{
 
 .resume{
 
+
+h3{
+    text-align: left;
+    font-size: 2em;
+    color: $dark-brown;
+    font-family: $body;
+    font-weight: 400;
+
+}
+
 h2{
         text-align: left;
         font-size: 2em;
@@ -235,6 +247,7 @@ li{
 
 p{
      text-align: left;
+     line-height: 1.25em;
     }
 
 
@@ -266,8 +279,8 @@ article{
 
 
 .buttonas a:hover{
-    color: white;
     background-color: $dark-brown;
+    color: white;
 }
 
 .bookcollection{
@@ -285,3 +298,18 @@ article{
 .pagination{
     border-radius: 10%;
 }
+
+
+
+.passionprojects{
+li{
+    list-style: none;
+
+}
+ img:hover{
+    opacity: .8;
+    color: $dark-brown;
+
+ }
+}
+
